@@ -13,72 +13,90 @@
 
 <body>
 
-    <header class="header">
+    <header class="header flex-row white-text">
 
         <h3>Industrious</h3>
 
+        <div id="menu-button" class="flex-row"><img src="./assets/images/ham-menu.png" />Menu
+
+            <div class="burger-menu">
+                
+                <span class="cross">x</span>
+
+                <ul class="menu-box  flex-column  width">
+                    <li class="width"><a href="#" class="menu-item width">Home</a></li>
+                    <li class="width"><a href="#" class="menu-item width">Elements</a></li>
+                    <li class="width"><a href="#" class="menu-item width">Generic</a></li>
+                </ul>
+            </div>
+
+        </div>
 
     </header>
 
-    <main class="main-container">
+    <section class="banner flex-column width">
 
-        <section class="banner">
+        <div class="banner-text flex-column white-text">
             <h1>INDUSTRIOUS</h1>
-            <p>A responsive business oriented template with a video background designed by TEMPLATED and released under
-                the Creative Commons License.
+            <p>A responsive business oriented template with a video background designed by TEMPLATED and released under the Creative Commons License.
             </p>
-            <video autoplay loop muted>
-                <source src="./assets/video/banner-video.mp4">
-            </video>
-        </section>
+        </div>
 
-        <section class="features-wrapper">
+        <video autoplay loop muted>
+            <source src="./assets/video/banner-video.mp4">
+        </video>
+        
+    </section>
 
-            <article>
+    <section class="features-wrapper flex-column">
+
+        <div class="max-width">
+
+            <article class="flex-column">
                 <h2>SEM TURPIS AMET SEMPER</h2>
                 <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer
                     lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.
                 </p>
             </article>
 
-            <div class="card-wrapper">
+            <div class="card-wrapper flex-row card-border">
 
-                <div class="feature-card">
+                <div class="feature-card card-border">
                     <img class="icon" src="" />
                     <h3>FEUGIAT CONSEQUAT</h3>
                     <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi
                         integer non faucibus.</p>
                 </div>
 
-                <div class="feature-card">
+                <div class="feature-card card-border">
                     <img class="icon" src="" />
                     <h3>ANTE SEM INTEGER</h3>
                     <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi
                         integer non faucibus.</p>
                 </div>
 
-                <div class="feature-card">
+                <div class="feature-card card-border">
                     <img class="icon" src="" />
                     <h3>IPSUM CONSEQUAT</h3>
                     <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi
                         integer non faucibus.</p>
                 </div>
 
-                <div class="feature-card">
+                <div class="feature-card card-border">
                     <img class="icon" src="" />
                     <h3>INTERDUM GRAVIDA</h3>
                     <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi
                         integer non faucibus.</p>
                 </div>
 
-                <div class="feature-card">
+                <div class="feature-card card-border">
                     <img class="icon" src="" />
                     <h3>FAUCIBUS CONSEQUAT</h3>
                     <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi
                         integer non faucibus.</p>
                 </div>
 
-                <div class="feature-card">
+                <div class="feature-card card-border">
                     <img class="icon" src="" />
                     <h3>ACCUMSAN VIVERRA</h3>
                     <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi
@@ -87,50 +105,53 @@
 
             </div>
 
-        </section>
+        </div>
 
-        <section class="parallax-article">
+    </section>
 
-            <article>
-                <h2>
-                    CURABITUR ULLAMCORPER ULTRICIES
-                </h2>
-                <p>
-                    Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer
-                    non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem
-                    accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in
-                    faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu
-                    faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.
-                </p>
-            </article>
+    <section class="parallax-wrapper flex-column width">
 
-        </section>
+        <article class="max-width  white-text">
+            <h2>
+                CURABITUR ULLAMCORPER ULTRICIES
+            </h2>
+            <p>
+                Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer
+                non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem
+                accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in
+                faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu
+                faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.
+            </p>
+        </article>
 
-        <section class="feedback-wrapper">
+    </section>
 
-            <article>
+    <section class="feedback-wrapper flex-column">
+        <div class="max-width flex-column">
+
+            <article class="flex-column">
                 <h2>FAUCIBUS CONSEQUAT LOREM</h2>
                 <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer
                     lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
             </article>
 
-            <div class="card-wrapper">
+            <div class="card-wrapper flex-row">
 
-                <div class="feedback-card">
+                <div class="feedback-card card-border">
                     <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi
                         integer non faucibus.</p>
                     <img src="!" />
                     <p><span>Jane Doe</span>CEO-ABC Inc</p>
                 </div>
 
-                <div class="feedback-card">
+                <div class="feedback-card card-border">
                     <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi
                         integer non faucibus.</p>
                     <img src="!" />
                     <p><span>Jone Doe</span>CEO-ABC Inc</p>
                 </div>
 
-                <div class="feedback-card">
+                <div class="feedback-card  card-border">
                     <p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi
                         integer non faucibus.</p>
                     <img src="!" />
@@ -139,47 +160,51 @@
 
             </div>
 
-        </section>
+    </section>
 
-    </main>
 
     <footer class="footer">
 
-        <article class="footer-article">
+        <div class="max-width flex-row white-text">
 
-            <h2>ACCUMSAN MONTES VIVERRA</h2>
+            <article class="footer-article">
 
-            <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non
-                faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan
-                varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus
-                vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer
-                ac sed amet praesent. Nunc acinia ante nunc ac gravida.</p>
+                <h2>ACCUMSAN MONTES VIVERRA</h2>
 
-        </article>
+                <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non
+                    faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan
+                    varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus
+                    vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus.
+                    Integer
+                    ac sed amet praesent. Nunc acinia ante nunc ac gravida.</p>
 
-        <ul class="link-list">
+            </article>
 
-            <h2>SEM TURPIS AMET SEMPER</h2>
+            <ul class="link-list">
 
-            <li>Dolor pulvinar sed etiam.</li>
-            <li>Etiam vel lorem sed amet.</li>
-            <li>Felis enim feugiat viverra.</li>
-            <li>Dolor pulvinar magna etiam.</li>
+                <h2>SEM TURPIS AMET SEMPER</h2>
 
-        </ul>
+                <li>Dolor pulvinar sed etiam.</li>
+                <li>Etiam vel lorem sed amet.</li>
+                <li>Felis enim feugiat viverra.</li>
+                <li>Dolor pulvinar magna etiam.</li>
 
-        <ul class="social-networks">
+            </ul>
 
-            <h2>MAGNA SED IPSUM</h2>
+            <ul class="social-networks">
 
-            <li> <i></i> <a>Twitter</a> </li>
-            <li> <i></i> <a>Facebook</a> </li>
-            <li> <i></i> <a>Instagram</a> </li>
-            <li> <i></i> <a>Github</a> </li>
+                <h2>MAGNA SED IPSUM</h2>
 
-        </ul>
+                <li> <i></i> <a>Twitter</a> </li>
+                <li> <i></i> <a>Facebook</a> </li>
+                <li> <i></i> <a>Instagram</a> </li>
+                <li> <i></i> <a>Github</a> </li>
 
-        <span>© Untitled. Photos Unsplash, Video Coverr.</span>
+            </ul>
+
+            <div>© Untitled. Photos Unsplash, Video Coverr.</div>
+
+        </div>
 
     </footer>
 
