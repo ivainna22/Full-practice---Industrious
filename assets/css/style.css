@@ -1,7 +1,7 @@
 :root {
     font-size: 16px;
     font-family: "Raleway", Arial, Helvetica, sans-serif;
-    color: grey;
+    color:rgb(141, 136, 136);
 }
 
 * {
@@ -41,7 +41,6 @@ body:before {
 
 #menu-button:hover .burger-menu {
     right: 0;
-
 }
 
 #menu-button img {
@@ -72,7 +71,6 @@ body:before {
 .menu-box {
     align-items: flex-start;
     margin-top: 30px;
-
 }
 
 .menu-item {
@@ -82,9 +80,8 @@ body:before {
     padding: 20px 0;
 }
 
-li:not(:first-child){
+li:not(:first-child) {
     border-top: 1px solid grey;
-    
 }
 
 .banner {
@@ -93,7 +90,6 @@ li:not(:first-child){
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-
 }
 
 .banner::before,
@@ -116,7 +112,6 @@ li:not(:first-child){
     background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
 }
 
-
 .banner video,
 .banner-text {
     position: absolute;
@@ -131,59 +126,60 @@ li:not(:first-child){
     z-index: 2;
 }
 
-.banner-text h1{
-    font-size: 4em;
+.banner-text h1 {
+    font-size: 3.5em;
     padding: 20px;
 }
 
-.banner-text p{
+.banner-text p {
     box-sizing: border-box;
     width: 50%;
-    font-size: 1.5em;
-    color: ;
+    font-size: 1.3em;
     padding: 20px;
     line-height: 1.5em;
     text-align: center;
 }
 
 .features-wrapper {
-   margin: 70px 0;
+    margin: 30px;
+
 }
 
-.card-wrapper{
-    flex-wrap:wrap;
-    margin: 0 40px;
+.card-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70x;
     }
 
+
 .feature-card {
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    width: 300px;
+    width: 280px;
     height: 350px;
     margin: 20px;
-    padding: 40px;
+    padding: 20px 30px 0 30px;
     text-align: center;
     box-shadow: 0px 0px 4px 1px rgb(0 0 0 / 3%);
     border-radius: 5px;
-
 }
 
-.feature-card i{
-    color:#ce1b28;
+.feature-card i {
     font-size: 5em;
     margin: 30px;
 }
 
-.feature-card h4{
-    font-size: 1.1em;
+.feature-card h4 {
+    font-size: 1em;
     margin-bottom: 30px;
 }
 
-.feature-card p{
-    line-height: 1.7em;
-    padding: 0 15px;
+.feature-card p {
+    font-size: 0.9em;
+    line-height: 1.6em;
+    padding: 0 10px;
 }
-
 
 .parallax-wrapper {
     background-image: url("../images/cta01.jpg");
@@ -191,35 +187,46 @@ li:not(:first-child){
     background-blend-mode: overlay;
     background-attachment: fixed;
     height: 300px;
+    margin-top: 50px;
 }
 
 
 .feedback-card {
+    justify-content: center;
+    align-items: center;
     width: 250px;
-    height: 250px;
+    height: 280px;
+    margin: 20px;
+    padding: 35px 35px 0 35px;
+    border-radius: 5px;
+    }
+
+.feedback-card>p{
+    text-align: left;
+    border-left: 8px solid lightgrey;
+    padding: 20px;
+    line-height: 1.5em;
+    font-style: oblique;
 }
 
-.footer {
-   }
-
-.footer-article {
-    max-width: 50%;
+.feedback-img{
+    justify-content: flex-start;
+    align-items:center;
+    font-size: 0.7em;
+    margin-top: 30px;
 }
 
-.footer-article div:last-child{
-    text-align: center;
-
+.feedback-card  img{
+    display: block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    object-fit: cover;
+    object-position: top;
 }
 
-/*.footer-grid{
-    grid-template-columns: 2fr 1fr 1fr;
-   
-}*/
 
-
-.link-list {}
-
-.social-networks {}
 
 
 .max-width {
@@ -243,10 +250,13 @@ li:not(:first-child){
     color: white;
 }
 
-.grey-text{
-   color: rgba(255, 255, 255, 0.5);
+.grey-text {
+    color: rgba(255, 255, 255, 0.5);
 }
 
+.red-text{
+    color:#ce1b28;
+}
 .width {
     width: 100%;
 }
@@ -255,28 +265,25 @@ li:not(:first-child){
     background-color: white;
 }
 
-.bc-grey{
+.bc-grey {
     background-color: #111111;
 }
 
-h2{
-    font-size: 2.2em;
-    margin-bottom: 25px;
+h2 {
+    font-size: 2em;
+    margin: 30px 0;
     text-align: center;
-    color: grey;
 
 }
 
-h2+p{
-   max-width: 900px;
+h2+p {
+    max-width: 60vw;
     margin-bottom: 30px;
     line-height: 1.5em;
     text-align: center;
 }
 
-.padding-wrapper{
+.padding-wrapper {
     padding-top: 60px;
     padding-bottom: 30px;
 }
-
-
