@@ -1,19 +1,12 @@
 :root {
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    color: grey;
 }
 
 * {
     color: inherit;
 }
-
-/*body {
-    background-image: url("../images/bg.jpg");
-    background-attachment: fixed;
-    background-color: rgb(255, 255, 255 / 79%);
-    background-blend-mode: overlay;
-    
-}*/
 
 body:before {
     content: ' ';
@@ -35,14 +28,12 @@ body:before {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #111111;
     font-size: 1em;
 }
 
 #menu-button {
     justify-content: center;
     align-items: center;
-    color: grey;
     text-decoration: none;
     top: 0;
     right: 0;
@@ -56,7 +47,6 @@ body:before {
 #menu-button img {
     width: 20px;
     height: 25px;
-    color: gray;
     padding-right: 5px;
 }
 
@@ -64,8 +54,6 @@ body:before {
     position: fixed;
     top: 0;
     bottom: 0;
-    color: grey;
-    background-color: #111111;
     width: 200px;
     right: -260px;
     z-index: 10;
@@ -91,7 +79,6 @@ body:before {
     display: block;
     list-style: none;
     text-decoration: none;
-    color: grey;
     padding: 20px 0;
 }
 
@@ -113,13 +100,12 @@ li:not(:first-child){
 .banner::after {
     display: block;
     content: "";
-    opacity: 0.5;
+    opacity: 0.7;
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    /*z-index: 1;*/
 }
 
 .banner::before {
@@ -138,22 +124,66 @@ li:not(:first-child){
     bottom: 0;
     right: 0;
     left: 0;
+    width: 100%;
 }
 
 .banner-text {
     z-index: 2;
 }
 
+.banner-text h1{
+    font-size: 4em;
+    padding: 20px;
+}
+
+.banner-text p{
+    box-sizing: border-box;
+    width: 50%;
+    font-size: 1.5em;
+    color: ;
+    padding: 20px;
+    line-height: 1.5em;
+    text-align: center;
+}
 
 .features-wrapper {
-    margin: 0 auto;
+   margin: 70px 0;
 }
+
+.card-wrapper{
+    flex-wrap:wrap;
+    margin: 0 40px;
+    }
 
 .feature-card {
+    justify-content:space-between;
+    align-items: center;
     width: 300px;
-    height: 300px;
+    height: 350px;
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0px 0px 4px 1px rgb(0 0 0 / 3%);
+    border-radius: 5px;
 
 }
+
+.feature-card i{
+    color:#ce1b28;
+    font-size: 5em;
+    margin: 30px;
+}
+
+.feature-card h4{
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.feature-card p{
+    line-height: 1.7em;
+    padding: 0 15px;
+}
+
 
 .parallax-wrapper {
     background-image: url("../images/cta01.jpg");
@@ -170,12 +200,21 @@ li:not(:first-child){
 }
 
 .footer {
-    background-color: #111111;
-}
+   }
 
 .footer-article {
     max-width: 50%;
 }
+
+.footer-article div:last-child{
+    text-align: center;
+
+}
+
+/*.footer-grid{
+    grid-template-columns: 2fr 1fr 1fr;
+   
+}*/
 
 
 .link-list {}
@@ -204,11 +243,40 @@ li:not(:first-child){
     color: white;
 }
 
+.grey-text{
+   color: rgba(255, 255, 255, 0.5);
+}
+
 .width {
     width: 100%;
 }
 
 .card-border {
-    border: 1px solid black;
     background-color: white;
 }
+
+.bc-grey{
+    background-color: #111111;
+}
+
+h2{
+    font-size: 2.2em;
+    margin-bottom: 25px;
+    text-align: center;
+    color: grey;
+
+}
+
+h2+p{
+   max-width: 900px;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.padding-wrapper{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+
